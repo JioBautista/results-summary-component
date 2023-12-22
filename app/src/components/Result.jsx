@@ -4,15 +4,15 @@ import styles from "../styles/result.module.scss";
 function Result() {
   return (
     <div className={styles.container}>
-      <h2>Your Result</h2>
+      <h2 className={styles.title}>Your Result</h2>
 
       <div className={styles.score}>
         <h1>76</h1>
-        <p>of 100</p>
+        <p className={styles.hundred}>of 100</p>
       </div>
 
-      <h1>Great</h1>
-      <p>
+      <h1 className={styles.subtitle}>Great</h1>
+      <p className={styles.body}>
         Your performance exceeds 65% of the people conducting the test here!
       </p>
     </div>

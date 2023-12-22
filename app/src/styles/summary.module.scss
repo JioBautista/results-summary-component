@@ -1,4 +1,5 @@
 .container {
+    font-size: 18px;
     width: 100%;
     padding: 2rem 3rem;
     background-color: white;
@@ -13,20 +14,32 @@
         color: white;
         font-weight: 700;
         padding: 1rem 3rem;
-        background-color: hsl(234, 85%, 45%);
+        background-color: hsl(224, 30%, 27%);
         border-radius: 2rem;
         border: none;
     }
+
+    button:hover {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+
+    span {
+        color: hsl(224, 30%, 27%);
+    }
 }
+
 .info {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     border-radius: 0.75rem;
-    border: 1px solid black;
 
     div {
         display: flex;
         gap: 1rem;
     }
+}
+
+.scoreNum {
+    font-weight: 700;
 }
