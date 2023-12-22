@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    padding: 2rem 3rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    button {
+        cursor: pointer;
+        color: white;
+        font-weight: 700;
+        padding: 1rem 3rem;
+        background-color: hsl(234, 85%, 45%);
+        border-radius: 2rem;
+        border: none;
+    }
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+
+    div {
+        display: flex;
+        gap: 1rem;
+    }
+}

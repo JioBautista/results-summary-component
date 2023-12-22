@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    background-color: hsl(234, 85%, 45%);
+    min-width: 370px;
+    border-radius: 2rem;
+    padding-block: 2rem;
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+    h1 {
+        margin-bottom: 1rem;
+    }
+    p:nth-child(4) {
+        width: 26ch;
+        margin-inline: auto;
+    }
+}
+.score {
+    background-color: hsla(256, 72%, 46%, 1);
+    margin-inline: auto;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        font-size: 60px;
+        color: white;
+    }
+}
